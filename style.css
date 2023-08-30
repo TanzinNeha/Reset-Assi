@@ -1,81 +1,147 @@
 /*header*/
 .header {
-    background-color: #FFF0F5;
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #FFF0F5;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .img {
-    height: 400px;
+  height: 400px;
 }
 
 .btn {
-    color: #FFF0F5;
-    background-color: #faa3b0;
-    border: none;
-    padding: 2%;
+  color: #FFF0F5;
+  background-color: #faa3b0;
+  border: none;
+  padding: 2%;
 }
 
 /*main- section-1*/
 /* CSS for the image section */
-.sec2-tittle{
+.sec2-tittle {
   text-align: center;
 }
-.image-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-     gap: 1%;
-     margin-top: 5%;
-  }
-  
-  /* CSS for each image div */
-  .image-div {
-    width: 20%; /* Adjust the width as needed */
-    background-color: #FF6F61; /* Default background color */
-    border-radius: 120px 120px 0 0; /* Rounded top corners */
-    text-align: center;
-  }
-  
-  /* CSS for images within image divs */
-  .image-div img {
-    max-width: 50%;
-    height: 40%;
-    padding-top: 30%;
-  }
 
-  /******/
-  .tittle-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1%;
-  
-  }
-  
-  /* CSS for each image div */
-  .tittle-div {
-    width: 20%; /* Adjust the width as needed */
-    border-radius: 150px 150px 0 0; /* Rounded top corners */
-    text-align: center;
-    text-decoration: underline;
-  }
-  
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+  margin-top: 5%;
+}
+
+/* CSS for each image div */
+.image-div {
+  width: 20%;
+  background-color: #FF6F61;
+  border-radius: 120px 120px 0 0;
+  text-align: center;
+}
+
+/* CSS for images within image divs */
+.image-div img {
+  max-width: 50%;
+  height: 40%;
+  padding-top: 30%;
+}
+
+/******/
+.tittle-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+
+}
+
+/* CSS for each image div */
+.tittle-div {
+  width: 20%;
+  /* Adjust the width as needed */
+  border-radius: 150px 150px 0 0;
+  /* Rounded top corners */
+  text-align: center;
+  text-decoration: underline;
+}
+
 /****/
-span{
+span {
   color: crimson;
 }
+
 .header1 {
-  background-color:  #FFF0F5;
+  background-color: #FFF0F5;
   width: 100%;
   height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.img1{
+
+.img1 {
   height: 200px;
+}
+
+/**********/
+/* CSS for the row container */
+.instragram{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instragram-div {
+  width: 20%;
+  text-align: center;
+}
+
+.instragram-div img {
+  max-width: 60%;
+  height:auto;
+  
+}
+/****/
+/* CSS for the flex container */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  gap: 5%;
+  
+}
+.instragram1-div img {
+  max-width: 100%;
+  height:auto;
+}
+.h{
+  color: rgb(209, 16, 80);
+}
+/****/
+.last{
+  margin-left: 15%;
+  max-width: 60%;
+  padding: 5%;
+  background-image: url(/Flower-Asset/Rectangle\ 9.png);
+}
+/*****/
+.last-sec{
+  text-align: center;
+}
+.btn1{
+  color: #FFF0F5;
+  background-color: #fa637a;
+  border: none;
+}
+footer{
+  margin-top: 5%;
+  background-color: black;
+  padding: 5%;
+}
+.text{
+  color: aliceblue;
+  text-align: center;
 }
