@@ -1,0 +1,81 @@
+/*header*/
+.header {
+    background-color: #FFF0F5;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    height: 400px;
+}
+
+.btn {
+    color: #FFF0F5;
+    background-color: #faa3b0;
+    border: none;
+    padding: 2%;
+}
+
+/*main- section-1*/
+/* CSS for the image section */
+.sec2-tittle{
+  text-align: center;
+}
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 1%;
+     margin-top: 5%;
+  }
+  
+  /* CSS for each image div */
+  .image-div {
+    width: 20%; /* Adjust the width as needed */
+    background-color: #FF6F61; /* Default background color */
+    border-radius: 120px 120px 0 0; /* Rounded top corners */
+    text-align: center;
+  }
+  
+  /* CSS for images within image divs */
+  .image-div img {
+    max-width: 50%;
+    height: 40%;
+    padding-top: 30%;
+  }
+
+  /******/
+  .tittle-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+  
+  }
+  
+  /* CSS for each image div */
+  .tittle-div {
+    width: 20%; /* Adjust the width as needed */
+    border-radius: 150px 150px 0 0; /* Rounded top corners */
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+/****/
+span{
+  color: crimson;
+}
+.header1 {
+  background-color:  #FFF0F5;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img1{
+  height: 200px;
+}
